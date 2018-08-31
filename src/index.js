@@ -83,7 +83,7 @@ class StopWatches extends React.Component{
                 <h1>Stop Watch</h1>
                     <h2>{this.state.hours}:{this.state.min}:{this.state.sec}:{this.state.milisec}</h2>
                     <button onClick={() => this.start()} class="hola">Start</button>
-                    <button onClick={() => this.stop()}>Stop</button>
+                    <button onClick={() => this.stop()}>StoP</button>
                     <button onClick={() => this.clearAll()}>Reset</button>
              </div>
 
